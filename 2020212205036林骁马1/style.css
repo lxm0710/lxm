@@ -1,0 +1,54 @@
+.jianju {
+    margin: 15px;
+}
+
+.juzhong {
+    text-align: center;
+}
+
+.xiao {
+    font-size: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.mid-div {
+    margin-top: 50px;
+}
+
+.top-div {
+    margin-top: 15px;
+}
+
+.hezi {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.hezi1 {
+    display: inline-block;
+    margin-left: 390px;
+}
+
+.Num-Font {
+    font-size: 30px;
+}
+
+.T {
+    display: inline-block;
+}
+
+.zhong {
+    font-size: 7px;
+    font-weight: bold;
+}
+
+.jiange {
+    margin-top: 35px;
+}
+
+#dajiange {
+    margin-top: 50px;
+}

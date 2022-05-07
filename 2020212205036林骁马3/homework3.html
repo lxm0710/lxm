@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>林骁马</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="mainbox">
+
+        <div class="m-hd">
+            <div class="father">
+                <div class="hd-box">
+                    <div class="Num">
+                        5
+                    </div>
+                    <div>
+                        待收货
+                    </div>
+                </div>
+                <div class="hd-box">
+                    <div class="Num">
+                        0
+                    </div>
+                    <div>
+                        待发货
+                    </div>
+                </div>
+                <div class="hd-box">
+                    <div class="Num">
+                        0
+                    </div>
+                    <div>
+                        待付款
+                    </div>
+                </div>
+                <div class="hd-box">
+                    <div class="Num">
+                        1
+                    </div>
+                    <div>
+                        待评价
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box1">
+            网上有害信息举报专区--->
+        </div>
+
+        <div class="box2">
+            <span style="margin:25px;">公告</span>
+            <span style="margin:25px;">规则</span>
+            <span style="margin:25px;">论坛</span>
+            <span style="margin:25px;">安全</span>
+            <span style="margin:25px;">公益</span>
+        </div>
+
+        <div class="box3">
+            <span>淘宝1212大促招商</span>
+            <span style="margin:70px">在线职业培训招商</span>
+        </div>
+
+        <div class="box4">
+            <span>金秋超值购招商</span>
+            <span style="margin:90px">运营神器年中大促</span>
+        </div>
+
+        <div class="box6_father">
+            <div class="box6_son" id="p1">
+                <div class="Sun">
+                    <img src="img/img2.png" width="28">
+                    <p style="font-size:12px;">充话费</p>
+                </div>
+            </div>
+
+            <div class="box6_son1" id="p2">
+                <div class="Sun">
+                    <img src="img/img3.jpg" width="37">
+                    <div style="font-size:13px;">旅行</div>
+                </div>
+            </div>
+            <div class="box6_son2" id="p3">
+                <div class="Sun">
+                    <img src="img/img4.png" width="37">
+                    <div style="font-size:13px;">车险</div>
+                </div>
+            </div>
+            <div class="box6_son3" id="p4">
+                <div class="Sun">
+                    <img src="img/img5.png" width="37">
+                    <div style="font-size:13px;">游戏</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box_final" id="p5">
+            <div class="box7">
+                <span style="margin:20px">充话费</span>
+                <span style="margin:20px">充流量</span>
+                <span style="margin:20px">充固话</span>
+                <span style="margin:20px">充宽带</span>
+            </div>
+            <div class="box8">
+                <div class="box8_son">
+                    请输入手机号
+                </div>
+                <div class="box8_son">
+                    50元
+                </div>
+            </div>
+            <div class="box9">
+                <span>售价 ￥</span>
+                <span style="color:red">49-49.8</span>
+            </div>
+
+            <div class="box10">
+                立即充值
+            </div>
+        </div>
+
+        <script>
+            document.getElementById("p1").onclick = function() {
+                this.style.border = "1px solid red";
+                this.style.color = "red";
+                document.getElementById("p2").style.border = "1px solid white";
+                document.getElementById("p3").style.border = "1px solid white";
+                document.getElementById("p4").style.border = "1px solid white";
+                document.getElementById("p5").style.border = "1px solid red";
+            }
+            document.getElementById("p2").onclick = function() {
+                this.style.border = "1px solid red";
+                this.style.color = "red";
+                document.getElementById("p1").style.border = "1px solid white";
+                document.getElementById("p3").style.border = "1px solid white";
+                document.getElementById("p4").style.border = "1px solid white";
+                document.getElementById("p5").style.border = "1px solid red";
+            }
+            document.getElementById("p3").onclick = function() {
+                this.style.border = "1px solid red";
+                this.style.color = "red";
+                document.getElementById("p1").style.border = "1px solid white";
+                document.getElementById("p2").style.border = "1px solid white";
+                document.getElementById("p4").style.border = "1px solid white";
+                document.getElementById("p5").style.border = "1px solid red";
+            }
+            document.getElementById("p4").onclick = function() {
+                this.style.border = "1px solid red";
+                this.style.color = "red";
+                document.getElementById("p1").style.border = "1px solid white";
+                document.getElementById("p2").style.border = "1px solid white";
+                document.getElementById("p3").style.border = "1px solid white";
+                document.getElementById("p5").style.border = "1px solid red";
+            }
+        </script>
+
+    </div>
+</body>
+
+</html>
